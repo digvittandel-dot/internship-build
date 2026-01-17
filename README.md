@@ -1,32 +1,28 @@
-# internship-build
 # Credit Card Fraud Detection
 
 ## Overview
-This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
-The goal is to build a simple yet effective model that can classify transactions as fraud or non-fraud.
-
-## Problem Statement
-Credit card fraud causes significant financial losses each year.
-By analyzing transaction patterns, we can identify suspicious activities early.
+This project implements a machine learning model to detect fraudulent credit card transactions using Logistic Regression.
 
 ## Dataset
-The dataset contains anonymized credit card transaction data.
-Each transaction is labeled as:
-- 0 → Legitimate
-- 1 → Fraudulent
+Public credit card transaction dataset containing anonymized features.
+- Class 0 → Legitimate transaction
+- Class 1 → Fraudulent transaction
 
 ## Approach
-- Data preprocessing
-- Exploratory Data Analysis (EDA)
-- Model training using Logistic Regression
-- Model evaluation using accuracy and confusion matrix
+1. Data loading and preprocessing
+2. Train-test split
+3. Model training using Logistic Regression
+4. Model evaluation using accuracy and confusion matrix
+
+## Results
+The model achieves high accuracy in detecting fraudulent transactions.
 
 ## Tools & Technologies
 - Python
-- Jupyter Notebook
 - Pandas, NumPy
 - Scikit-learn
-- Matplotlib
+- Google Colab
+- GitHub
 
-## Status
-🚧 Project under active development.
+## Author
+Built as part of internship preparation to demonstrate practical ML skills.
